@@ -1,0 +1,45 @@
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    screens: {
+      sm: "480px",
+      smd: "630px",
+      md: "768px",
+      mmd: "900px",
+      xmd: "1050px",
+      lg: "1200px",
+      xl: "1440px",
+      xxl: "1650px",
+      xxxl: "1800px",
+    },
+    extend: {
+      colors: {
+        deepblue: "#020659",
+        primaryblue: "#2E00FF",
+        royalblue: "#17007F",
+        brightblue: "#2200BF",
+        pastalblue: "#E8F0FF",
+        offblack: "#232A2E",
+        midgray: "#BDBEBF",
+        lightgray: "#DCDCDC",
+        softgray: "#EEEEEE",
+        white: "#FFFFFF",
+
+        primary: "#FDC339",
+        black: "#000000",
+        "text-black": "#000000",
+        pink: "#FED6F0",
+        gray: "#EEEEEE",
+        display: ["group-hover"],
+      },
+      fontFamily: {
+        bungeeOutline: ["Bungee Outline", "cursive"],
+        montseorrat: ["Montserrat"],
+        bungee: ["Bungee"],
+        teko: ["Teko"],
+        ibmplex: ["IBM Plex Sans Condensed"],
+        ptsans: ["PT Sans"],
+      },
+    },
+  },
+};

@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "~react-image-gallery/styles/css/image-gallery.css";
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+.max-w-screen-lg {
+  max-width: 1200px;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Teko", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #232a2e;
+  background: #fff;
+  scroll-behavior: smooth;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.mySwiper {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.addsSlider,
+.servicesSlider {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+/* Scrolllbar css */
+.hidden-scrollbar {
+  /**
+    FIREFOX
+  */
+  scrollbar-width: none;
+
+  /**
+    CHROME, EDGE, OPERA and SAFARI
+  */
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+
+.card-shadow {
+  -moz-box-shadow: 0 0 30px #ccc;
+  -webkit-box-shadow: 0 0 30px #ccc;
+  box-shadow: 0 0 30px #ccc;
+}
+
+.card-shadow-dashboard {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+.normal-shadow {
+  -moz-box-shadow: 0 0 6px #ccc;
+  -webkit-box-shadow: 0 0 6px #ccc;
+  box-shadow: 0 0 6px #ccc;
+}
+
